@@ -16,12 +16,12 @@ import { navItems, rightNavItems } from "../App";
 
 const Layout = () => {
   return (
-    <div className="flex min-h-screen w-full flex-col">
+    <div className="flex min-h-screen w-full flex-col bg-background">
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
         <DesktopNav />
         <MobileNav />
       </header>
-      <main className="flex-grow overflow-auto">
+      <main className="flex-grow overflow-auto bg-background">
         <Outlet />
       </main>
       <Footer />

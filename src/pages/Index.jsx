@@ -18,7 +18,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 bg-background">
       <section className="mb-12">
         <Card className="overflow-hidden">
           <div className="md:flex">
